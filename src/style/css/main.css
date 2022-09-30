@@ -1,0 +1,49 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 160px;
+}
+
+.dropdown-toggle {
+  color: #1D1D1B;
+}
+
+.accordion-section {
+  background-color: antiquewhite;
+  padding-bottom: 35px;
+}
+
+.accordion {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-carousel {
+  max-width: 600px;
+}
+/*# sourceMappingURL=main.css.map */
