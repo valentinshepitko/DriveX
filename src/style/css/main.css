@@ -56,21 +56,23 @@ img {
   }
 }
 
+.navbar .navbar-nav .nav-link:hover {
+  color: #BE000B;
+}
+
+.navbar .navbar-nav .nav-link-registration:hover {
+  color: #605555;
+}
+
 .dropdown-toggle {
   color: #1D1D1B;
 }
 
 .header-form {
   border: none;
-  position: relative;
-}
-.header-form:after {
-  position: absolute;
-  content: "";
-  width: 223px;
-  height: 1px;
-  background-color: #1D1D1B;
-  bottom: 1px;
+  outline: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 13px;
 }
 
 .nav-item-registration {
@@ -80,7 +82,17 @@ img {
 .nav-link-registration {
   background-color: #1D1D1B;
   border-radius: 10px;
-  padding: 16px 20px;
+  padding: 17px 40px 17px 20px;
   color: white;
+  position: relative;
+}
+.nav-link-registration:after {
+  position: absolute;
+  content: "";
+  background-image: url("../../../../src/img/register.svg");
+  width: 17px;
+  height: 16px;
+  bottom: 18px;
+  right: 15px;
 }
 /*# sourceMappingURL=main.css.map */
