@@ -1,0 +1,47 @@
+.header{
+  padding-top: 30px;
+  padding-bottom: 160px;
+}
+
+.navbar-brand{
+  padding-right: 30px;
+}
+
+.navbar-nav{
+  gap: 15px;
+
+  @include breakpoint('lg'){
+    align-items: center;
+    padding-top: 40px;
+  }
+}
+
+.dropdown-toggle{
+  color: #1D1D1B;
+}
+
+.header-form{
+  border: none;
+  position: relative;
+
+  &:after{
+    position: absolute;
+    content: '';
+    width: 223px;
+    height: 1px;
+    background-color: #1D1D1B;
+    bottom: 1px;
+  }
+}
+
+.nav-item-registration{
+  padding-top: 10px;
+}
+
+.nav-link-registration{
+  background-color: #1D1D1B;
+  border-radius: 10px;
+  padding: 16px 20px;
+  color: white;
+}
+
